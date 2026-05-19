@@ -428,6 +428,50 @@ footer {
     padding-top: 1.5rem;
 }
 
+/* FAQ Section */
+.faq {
+    padding: 5rem 5%;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.faq h2 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 3rem;
+}
+
+.faq-container {
+    max-width: 900px;
+    margin: auto;
+    display: grid;
+    gap: 2rem;
+}
+
+.faq-item {
+    background-color: var(--bg-light);
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: left;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: transform 0.3s;
+}
+
+.faq-item:hover {
+    transform: translateY(-5px);
+}
+
+.faq-item h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.faq-item p {
+    color: var(--text-dark);
+    line-height: 1.8;
+}
+
 /* Accessibility */
 .burger:focus {
     outline: 2px solid var(--secondary-color);
